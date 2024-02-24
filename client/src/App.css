@@ -1,0 +1,70 @@
+body {
+  background-color: #16151a;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.App .information {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+  height: 100px;
+  border: 1px solid #04f489;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.App input {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.App .information button {
+  width: 50px;
+  height: 50px;
+}
+
+.App .employees button {
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #463714;
+  border-radius: 10px;
+}
+
+.App .employees button:hover {
+  border-color: rgb(208, 168, 92);
+}
+
+.App .employees .employee {
+  width: 700px;
+  height: auto; 
+  border: 1px solid #04f489;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.App .comment-box-1, .App .comment-box-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App .employee h3 {
+  margin: 20px;
+}
