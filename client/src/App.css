@@ -33,6 +33,10 @@ body {
   height: 50px;
 }
 
+.App .show-comments {
+  margin-bottom: 30px;
+}
+
 .App .employees button {
   width: 320px;
   height: 50px;
