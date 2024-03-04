@@ -18,7 +18,7 @@ body {
 .product-info-container {
   display: flex;
   padding: 20px 20px;
-  border: 1px solid #463714;;
+  border: 5px solid #463714;;
   box-shadow: 0 4px 8px black;
 
   width: 740px;
